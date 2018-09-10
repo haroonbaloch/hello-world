@@ -8,6 +8,6 @@ def index2(anyname):
 
 def index3(request):
 
-    dict = {'templatetag':"now its owrking"}
+    dict = {'templatetag':"now its working here too55"}
 
     return render(request,'html/index.html',context=dict)
