@@ -11,4 +11,4 @@ for color in colors:
         print(color+' color found')
 
     else:
-        print(color+' color not found')
+        print(color+' color not fdfound')
