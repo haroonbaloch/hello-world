@@ -7,5 +7,6 @@ from django.conf.urls import include
 urlpatterns = [
     url(r'^d',views.index2,name='index2'),
     url(r'^hi2/', include('app2.urls')),
+    url(r'^$',views.index3,name='index3'),
     path('admin/', admin.site.urls),
 ]
