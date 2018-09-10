@@ -7,5 +7,5 @@ def index2(anyname):
     return HttpResponse("my 2nd rpoject")
 
 def index3(request):
-    dict = {'templatetag':"your text goes here"}
+    dict = {'templatetag':"your teasxt gtoes here"}
     return render(request,'html/index.html',context=dict)
